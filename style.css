@@ -19,7 +19,7 @@ li{
 }
 .menu a{
     display: inline-block;
-    background:#2563ed;
+    background:#002983;
     color:white;
     text-decoration:none;
     padding: 10px 20px;
@@ -28,5 +28,41 @@ li{
     font-weight:bold;
     transition: 0.3s;
 }
+.cat a{
+    display: inline-block;
+    background:#ff00ea;
+    color:white;
+    text-decoration:none;
+    padding: 10px 20px;
+    margin-right: 8px;
+    border-radius:6px;
+    font-weight:bold;
+    transition: 0.3s;
+}
+.house a{
+    display: inline-block;
+    background:#3cff00;
+    color:white;
+    text-decoration:none;
+    padding: 10px 20px;
+    margin-right: 8px;
+    border-radius:6px;
+    font-weight:bold;
+    transition: 0.3s;
+}
+.family a{
+    display: inline-block;
+    background:#ff0000;
+    color:white;
+    text-decoration:none;
+    padding: 10px 20px;
+    margin-right: 8px;
+    border-radius:6px;
+    font-weight:bold;
+    transition: 0.3s;
+}
+
+
+
 
     
