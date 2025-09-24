@@ -61,7 +61,9 @@ li{
     font-weight:bold;
     transition: 0.3s;
 }
-
+.menu a:hover {
+    background:#1d4ed8;
+}
 
 
 
