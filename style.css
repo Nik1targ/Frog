@@ -17,7 +17,16 @@ p {
 li{
     color:rgb(111, 0, 255)
 }
-.menu{
-    background:#f1f5f9;
-    padding: 10px;
+.menu a{
+    display: inline-block;
+    background:#2563ed;
+    color:white;
+    text-decoration:none;
+    padding: 10px 20px;
+    margin-right: 8px;
+    border-radius:6px;
+    font-weight:bold;
+    transition: o.3s;
 }
+
+    
