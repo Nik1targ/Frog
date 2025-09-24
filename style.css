@@ -19,7 +19,7 @@ li{
 }
 .menu a{
     display: inline-block;
-    background:#002983;
+    background:#1d0083;
     color:white;
     text-decoration:none;
     padding: 10px 20px;
@@ -27,6 +27,7 @@ li{
     border-radius:6px;
     font-weight:bold;
     transition: 0.3s;
+    border:5px dashed rgb(255, 0, 0)
 }
 .cat a{
     display: inline-block;
@@ -64,7 +65,11 @@ li{
 .menu a:hover {
     background:#1d4ed8;
 }
-
-
+.p{
+    margin-bottom: 30px;
+}
+.div{
+    padding: 20px;
+}
 
     
