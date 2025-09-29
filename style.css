@@ -97,3 +97,7 @@ li{
     right:0;
     background: coral;
 }
+
+.row{display:flex;gap:12px;}
+.box{width:80px; height:80px;background:#e2e8f0; border:2px solid #94a3b8;}
+.abs {position:absolute; top:0;}
