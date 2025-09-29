@@ -72,4 +72,14 @@ li{
     padding: 20px;
 }
 
+.box{
+    width: 150px;
+    height: 80px;
+    margin: 10px;
+    background: lightgreen;
+    border: 2px solid green;
     
+    position:relative;
+    top: 20 px;
+    left:30px;
+}
