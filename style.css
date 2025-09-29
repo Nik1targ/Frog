@@ -78,8 +78,22 @@ li{
     margin: 10px;
     background: lightgreen;
     border: 2px solid green;
-    
+
     position:relative;
     top: 20 px;
     left:30px;
+}
+
+.parent {
+    position:relative;
+    width: 200px;
+    height:200px;
+    background:lightblue;
+}
+
+.child{
+    position: absolute;
+    bottom:0;
+    right:0;
+    background: coral;
 }
