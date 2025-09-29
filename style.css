@@ -98,6 +98,17 @@ li{
     background: coral;
 }
 
-.row{display:flex;gap:12px;}
+.row{position:relative;display:flex;gap:12px;}
 .box{width:80px; height:80px;background:#e2e8f0; border:2px solid #94a3b8;}
 .abs {position:absolute; top:0;}
+
+
+.card{
+    position:relative;
+    width:260px;padding:16px;
+    background:#f8fafc; borber:2px solid #cdb5e1; border-radius:10px;
+}
+.badge{
+    position:absolute; top:10px; right:10px;
+    background:#ef4444;color:#fff;padding:4px 8px;border-radius:9999px;
+}
