@@ -141,3 +141,15 @@ li{
     padding: 10px;
     font-weight: bold;
 }
+.scroll-top{
+    position:fixed;
+    bottom:20px;
+    right: 20px;
+    background: #ef4444;
+    color:white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
