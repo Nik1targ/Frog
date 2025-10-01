@@ -1,0 +1,1 @@
+const scrollButton = document.querySelector(scroll-top);
