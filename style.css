@@ -1,9 +1,12 @@
 h1 { 
- color: red   
+ color: rgb(255, 255, 255)   
 }
 p { 
- color: rgb(255, 0, 255)  
+ color: rgb(255, 255, 255)  
 }
+ .b{
+    color: rgb(0, 0, 0)  
+ }
 
 .cat{
     color:blueviolet
@@ -127,4 +130,14 @@ li{
     position:absolute;top:50px;left:50%;
     transform:translate(-50%,-50%);
     background:#1d4ed8; color:#fff;
+}
+.fixed-menu{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background: #000000;
+    color:white;
+    padding: 10px;
+    font-weight: bold;
 }
