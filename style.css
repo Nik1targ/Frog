@@ -228,3 +228,10 @@ li{
     min-height: 100vh;
     background: #f8fafc;
 }
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 100px 200px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+}
