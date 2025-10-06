@@ -181,3 +181,33 @@ li{
     border-radius: 6px;
     text-decoration: none;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header__title{
+    color: #000;
+}
+.container{
+    display:flex;
+    gap:10px;
+}
+.special{
+    order:-1;
+    background: lightgreen;
+}
+.item{
+    flex: 1 1 80px;
+    padding: 20px;
+    background: lightblue;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap:16px;
+    padding: 16px;
+    background: #fafafa;
+}
