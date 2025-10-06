@@ -168,3 +168,16 @@ li{
     background: lightblue;
     z-index:1;
 }
+.menu{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    background: lightblue;
+    padding: 10px;
+}
+.menu a{
+    background: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+}
