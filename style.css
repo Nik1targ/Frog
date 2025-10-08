@@ -249,3 +249,47 @@ li{
     grid-template-rows: 60px 1fr 50px;
     gap:10px;
 }
+
+
+/* Section moto */
+.moto__section {
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.moto__section-info {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.moto-card1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:16px;
+    padding: 16px;
+    float:left;
+    
+  
+    
+
+}
+.moto-card2{
+    display: flex;
+    flex-wrap: wrap;
+    gap:16px;
+    padding: 16px;
+    float: left;
+
+}
+.moto-card3{
+    display: flex;
+    flex-wrap: wrap;
+    gap:16px;
+    padding: 16px;
+    float: left;
+
+}
