@@ -272,9 +272,6 @@ li{
     gap:16px;
     padding: 16px;
     float:left;
-    
-  
-    
 
 }
 .moto-card2{
@@ -292,4 +289,23 @@ li{
     padding: 16px;
     float: left;
 
+}
+
+.loader{
+    animation:spin 2s liner infinite;
+}
+
+@keyframes cspin {
+    0% {transform:rotate(0deg) ;}
+    100% {transform:rotate(360deg) ;}
+}
+
+.text{
+    animation:blink 1s infinite;
+} 
+
+@keyframes blink{
+    0% {opacity: 1; ;}
+    50% {opacity: 0; ;}
+    100% {opacity: 1; ;}
 }
