@@ -309,3 +309,38 @@ li{
     50% {opacity: 0; ;}
     100% {opacity: 1; ;}
 }
+
+.animation-button{
+    padding: 12px 18px;
+    border-radius: 12px;
+    border: 0;
+    color:#fff;
+    background: #6366f1;
+    cursor: pointer;
+    transition: transform .6s cubic-bezier(0.52, -0.26, 0.34, 1), all .3s ease;
+}
+
+.animation-button:hover{ 
+    transform: scale(1.3); 
+    background: #4f46e5;
+}
+
+.a-underline{
+    position:relative;
+    text-decoration: none;
+    color:#111;
+}
+
+.a-underline::after{
+    content:"";
+    position:absolute;left:0; bottom:-2px;
+    height: 2px; width:100%;
+    background: #6366f1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+}
+
+.a-underline:hover::after{
+    transform: scaleX(1);
+}
