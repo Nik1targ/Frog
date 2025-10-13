@@ -348,12 +348,12 @@ li{
 .fade-in{
     opacity:0;
     transform: translateY(12px);
-    animation:apper 600ms easy forwards;
+    animation: appear 600ms easy forwards;
 }
 
 @keyframes appear{
     to{
-        apscity:1;
+        opacity:1;
         transform: translateY(0);
     }
 }
