@@ -32,9 +32,9 @@ li{
     transition: 0.3s;
     border:5px dashed rgb(255, 0, 0)
 }
-.cat a{
+.moto1 a{
     display: inline-block;
-    background:#ff00ea;
+    background:#ff0000;
     color:white;
     text-decoration:none;
     padding: 10px 20px;
@@ -43,9 +43,9 @@ li{
     font-weight:bold;
     transition: 0.3s;
 }
-.house a{
+.moto2 a{
     display: inline-block;
-    background:#3cff00;
+    background:#ff0000;
     color:white;
     text-decoration:none;
     padding: 10px 20px;
@@ -54,7 +54,7 @@ li{
     font-weight:bold;
     transition: 0.3s;
 }
-.family a{
+.moto3 a{
     display: inline-block;
     background:#ff0000;
     color:white;
@@ -119,7 +119,7 @@ li{
 .pane{height:400px; background: #e0f2fe;margin:24px}
 .floating{
     position:absolute;top:16px;right:16px;
-    background: #22c55e;color:#fff;padding: 10px 14px; border-radius:8px;
+    background: #ff0000;color:#fff;padding: 10px 14px; border-radius:8px;
 }
 .stage{
     position:relative;
@@ -322,14 +322,14 @@ li{
     border-radius: 12px;
     border: 0;
     color:#fff;
-    background: #6366f1;
+    background: #ff0000;
     cursor: pointer;
     transition: transform .6s cubic-bezier(0.52, -0.26, 0.34, 1), all .3s ease;
 }
 
 .animation-button:hover{ 
     transform: scale(1.3); 
-    background: #4f46e5;
+    background: #ff0000;
 }
 
 .a-underline{
@@ -342,7 +342,7 @@ li{
     content:"";
     position:absolute;left:0; bottom:-2px;
     height: 2px; width:100%;
-    background: #6366f1;
+    background: #ff0000;
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.3s;
@@ -383,7 +383,7 @@ li{
     min-height:160px ;
     display:grid;place-items: center;
     color:#fff;font-weight: 700;
-    background: linear-gradient(45deg, #ff00c8,#6f00ff,#460000);
+    background: linear-gradient(45deg, #ff00c8,#6f00ff,#ff0000,#00bfff,#ffe100);
     background-size: 300% 300%;
     animation: shift 8s ease infinite;
     border-radius: 16px;
