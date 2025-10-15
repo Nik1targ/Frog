@@ -291,6 +291,13 @@ li{
 
 }
 
+.husqvarna{
+    position:fixed;top:0px;left:60%;right: 10px;
+    transform:translate(-50%,50%);
+   
+}
+        
+
 .loader{
     animation:spin 2s liner infinite;
 }
@@ -356,4 +363,34 @@ li{
         opacity:1;
         transform: translateY(0);
     }
+}
+
+.card{
+    width: 260px;
+    padding: 16px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+    transition: transform .2s,box-shadow .2s;
+}
+
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow:0 12px 28px rgba(0,0,0,.15);
+}
+
+.grad{
+    min-height:160px ;
+    display:grid;place-items: center;
+    color:#fff;font-weight: 700;
+    background: linear-gradient(45deg, #ff00c8,#6f00ff,#460000);
+    background-size: 300% 300%;
+    animation: shift 8s ease infinite;
+    border-radius: 16px;
+}
+
+@keyframes shift{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;} 
 }
