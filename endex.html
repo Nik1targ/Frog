@@ -90,8 +90,41 @@
             <label for="q">Поиск:</label>
             <input id="q" name="q" type="text" placeholder="/Что ищем?">
             <button type="submit">Найти</button>
+
+            <label for="city">Город</label>
+            <select id="city" name="city">
+                <option value="msk">Москва</option>
+                <option value="spb">Сант-питербург</option>
+                <option value="mnsk">Минск</option>
+            </select>
+
+            <button type="submit">Отправить</button>
+            <button type="button">Просто кнопка</button>
         </form>
+        
+            <form class="auth" action="/signup" method="post">
+                <h3 class="auth_title">Регистрация</h3>
+
+            <lable class="auth_lable"> Имя
+                <input class="auth_input" name="name" type="text" placeholder="Ваше имя" requair>
+            </lable>
+
+            <lable class="auth_lable"> Email
+                <input class="auth_input" name="email" type="text" placeholder="you@mail.com" requair>
+            </lable>
+
+            <lable class="auth_lauble"> Password
+                <input class="auth_input" name="password" type="text" placeholder="*******" requair>
+            </lable>
+
+            <button class="auth_btn" type="submit">Создать</button>
+
+            </form>
+
+
         
         <script src="script.js"></script>
     </body>
     </html> 
+
+
