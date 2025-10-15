@@ -80,7 +80,7 @@ li{
     height: 80px;
     margin: 10px;
     background: lightgreen;
-    border: 2px solid green;
+    border: 3px solid green;
 
     position:relative;
     top: 20 px;
@@ -102,7 +102,7 @@ li{
 }
 
 .row{position:relative;display:flex;gap:12px;}
-.box{width:80px; height:80px;background:#e2e8f0; border:2px solid #94a3b8;}
+.box{width:80px;left: 150px; height:80px;background:#e2e8f0; border:2px solid #94a3b8;}
 .abs {position:absolute; top:0;}
 
 
@@ -292,7 +292,7 @@ li{
 }
 
 .husqvarna{
-    position:fixed;top:-30px;left:60%;right: 10px;
+    position:fixed;top:-50px;left:60%;right: 10px;
     transform:translate(-50%,50%);
    
 }
