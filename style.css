@@ -92,7 +92,7 @@ li{
     position:relative;
     width: 200px;
     height:200px;
-    left:90%;
+    left:3%;
     background:lightblue;
 }
 
@@ -104,8 +104,8 @@ li{
 }
 
 .row{position:relative;display:flex;gap:12px;}
-.box{width:80px;left: 150px; height:80px;background:#e2e8f0; border:2px solid #94a3b8;}
-.abs {position:absolute; top:0;}
+.box{width:80px;left: 120px; height:80px;background:#e2e8f0; border:2px solid #94a3b8;}
+.abs {position:absolute; top:0;left: 12px}
 
 
 .card{
