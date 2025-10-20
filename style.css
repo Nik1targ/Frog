@@ -92,7 +92,7 @@ li{
     position:relative;
     width: 200px;
     height:200px;
-    left:3%;
+    left:0%;
     background:lightblue;
 }
 
@@ -165,8 +165,8 @@ li{
 }
 .background{
     position:absolute;
-    top:0; left:0;
-    width:12%;height: 16%;
+    top:64%; left:10%;
+    width:13%;height: 18%;
     background: lightblue;
     z-index:1;
     
