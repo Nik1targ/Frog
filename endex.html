@@ -151,7 +151,17 @@
             <input class="form_radio" type="radio" name="gender" value="female">
             <span class="form_option-text">Женский</span>
          </label>
+
+
+<form class="form" action="/upload" method="POST" enctype="multipart/form-data">
+    <label class="form_option">
+        <span class="form_option-text">Аватар</span>  
+        <input class="form_file" type="file" name="avatar" accept="image/*">
+    </label>
+    <button class="form_button form_button--primary" type="submit">Загрузить</button>
+</form>
         
+
         <script src="script.js"></script>
     </body>
     </html> 
