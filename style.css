@@ -18,7 +18,7 @@ p {
     color:rgb(255, 0, 179)
 }
 li{
-    color:rgb(111, 0, 255)
+    color:rgb(255, 0, 0)
 }
 .menu a{
     display: inline-block;
@@ -92,6 +92,7 @@ li{
     position:relative;
     width: 200px;
     height:200px;
+    left:0%;
     background:lightblue;
 }
 
@@ -103,8 +104,8 @@ li{
 }
 
 .row{position:relative;display:flex;gap:12px;}
-.box{width:80px;left: 150px; height:80px;background:#e2e8f0; border:2px solid #94a3b8;}
-.abs {position:absolute; top:0;}
+.box{width:80px;left: 120px; height:80px;background:#e2e8f0; border:2px solid #94a3b8;}
+.abs {position:absolute; top:0;left: 12px}
 
 
 .card{
@@ -156,7 +157,7 @@ li{
 }
 .window{
     position:absolute;
-    top: 50px;left: 50px;
+    top: 68%;left: 12%;
     width: 200px;height: 100px;
     background:white ;
     border:2px solid black;
@@ -164,10 +165,11 @@ li{
 }
 .background{
     position:absolute;
-    top:0; left:0;
-    width:30%;height: 30%;
+    top:64%; left:10%;
+    width:13%;height: 18%;
     background: lightblue;
     z-index:1;
+    
 }
 .menu{
     display:flex;
@@ -403,4 +405,6 @@ li{
 .auth_input:focus{outline: none; border-color: #2563ed;}
 .auth_bth{display: block;width: 100%; height:36px; margin-top:10px; border:0; border-radius: 1px}
 .auth_bth:hover{background: #1e40af;}
+
+
 

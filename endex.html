@@ -28,10 +28,10 @@
                 Мне нарвится заниматся этим делом и развивать свои умения.</p>
                 <h2>Список покупок по шагам</h2>
                 <ol>
-                    <li>Сначала купить хлеб</li>
-                    <li>Потом молоко</li>
-                    <li>далее сыр</li>
-                    <li>И в конце взять яблоко</li>
+                    <li>Сначала купить YAMAHA</li>
+                    <li>Потом KAWASAKI </li>
+                    <li>далее SUZUKI </li>
+                    <li>И в конце взять HUSQVARNA </li>
                 </ol>
         </section>
 
@@ -121,12 +121,59 @@
 
             <button class="auth_btn" type="submit">Создать</button>
 
-            </form>
+         </form>
+
+         <form action="/send" method="post">
+            <input type="text" name="name" placeholder="Имя"requair>
+            <button type="submit">Отправить</button>
+            <button type="reset">Сбросить</button>
+         </form>
+
+         <form class="form" action="/send" method="post">
+            <button class="form_button form_button--primary" type="submit">
+                <span class="form_button-icon" aria-hidden="true"></span>
+                <span class="form_button-text">Отправить</span>
+            </button>
+         </form>
+
+         <label class="form_option">
+            <input class="form_checkbox" type="checkbox" id="adree" name="adree" value="yes">
+            <span class="form_option-text">Согласен с условиями</span>
+         </label>
+
+
+         <fieldset class="form_group">
+            <legend class="form_label"></legend>
+         </fieldset>
+         <label class="form_option">
+            <input class="form_radio" type="radio" name="gender" value="male">
+            <span class="form_option-text">Мужской</span>
+         </label>
+         <label class="form_option">
+            <input class="form_radio" type="radio" name="gender" value="female">
+            <span class="form_option-text">Женский</span>
+         </label>
+
+
+<form class="form" action="/upload" method="POST" enctype="multipart/form-data">
+    <label class="form_option">
+        <span class="form_option-text">Аватар</span>  
+        <input class="form_file" type="file" name="avatar" accept="image/*">
+    </label>
+    <button class="form_button form_button--primary" type="submit">Загрузить</button>
+</form>
+
+
+<form class="form" action="mailto:you@example.com" method="POST" enctype="text/plain">
+        <input class="form_input" type="text" name="name" placeholder="Имя">
+        <input class="form_input" type="email" name="email" placeholder="Email">
+        <button class="form_button" type="submit">Отправить на почту</button>
+</form>
 
 
         
+
         <script src="script.js"></script>
     </body>
     </html> 
-
 
