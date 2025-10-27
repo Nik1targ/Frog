@@ -157,7 +157,7 @@ li{
 }
 .window{
     position:absolute;
-    top: 68%;left: 12%;
+    top: 77%;left: 12%;
     width: 200px;height: 100px;
     background:white ;
     border:2px solid black;
@@ -165,8 +165,8 @@ li{
 }
 .background{
     position:absolute;
-    top:64%; left:10%;
-    width:13%;height: 18%;
+    top:73%; left:10%;
+    width:13%;height: 19%;
     background: lightblue;
     z-index:1;
     
