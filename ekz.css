@@ -1,9 +1,14 @@
 .main-section{
     
-
+    Top: 64px;
+    Right: 136px;
+    Bottom:64px;
+    Left: 136px;
+    Gap:64px;
 }
 
 
 .title-color{
-    background: red;
+    color: red;
 }
+
