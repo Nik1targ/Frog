@@ -45,3 +45,31 @@ n = 12.345;
 
 alert(1/0); 
 alert("не число" / 2);
+
+
+let isSunny = true;
+let isRaining = false;
+
+if(isSunny){
+  console.log("Moжно идти гулять!");
+}
+
+let box = null;
+let anotherBox;
+
+console.log(box, anotherBox);
+
+let item = {
+  title: "Книга",
+  pages:200,
+  avaible: true
+};
+
+console.log(item.title);
+
+
+let colors = ["красный","зеленый","синий"];
+console.log(colors[0]);
+
+let text = "Привет";
+console.log(typeof text);
