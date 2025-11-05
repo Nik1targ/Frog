@@ -1,14 +1,27 @@
 .main-section{
     
-    Top: 64px;
-    Right: 136px;
-    Bottom:64px;
-    Left: 136px;
-    Gap:64px;
+    
 }
 
 
 .title-color{
     color: red;
 }
+
+.text{
+    display: inline-block;
+    background:#ff0000;
+    color:white;
+    text-decoration:none;
+    padding: 10px 20px;
+    margin-right: 8px;
+    border-radius:6px;
+    font-weight:bold;
+    transition: 0.3s;
+}
+
+
+
+
+
 
