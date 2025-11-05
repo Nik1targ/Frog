@@ -1,14 +1,21 @@
 .main-section{
-    
-    
+    padding: 50px 0;
 }
-
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
 
 .title-color{
     color: red;
 }
 
-.text{
+.title {
+    padding-bottom: 50px;
+}
+
+.button{
     display: inline-block;
     background:#ff0000;
     color:white;
@@ -20,8 +27,20 @@
     transition: 0.3s;
 }
 
+.button:hover {
+    scale: 1;
+    background: #af1d1d;
+}
+
+.main-section__container {
+    display: flex;
+    gap: 50px;
+}
 
 
-
-
+.main-section__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
