@@ -205,3 +205,13 @@ switch (role) {
     console.log("Другой");
 }
 
+let isOnline = true;
+let status = isOnline ? "В сети" : "Не всети";
+console.log(status);
+
+
+
+
+let isReady = true;
+let zakaz = isReady ? "готов" : "В зборке";
+console.log(zakaz);
