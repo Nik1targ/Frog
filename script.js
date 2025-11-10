@@ -73,3 +73,9 @@ console.log(colors[0]);
 
 let text = "Привет";
 console.log(typeof text);
+
+let buttonPressed = false;
+
+if(buttonPressed){
+  console.log("Кнопка нажата!");  
+}
