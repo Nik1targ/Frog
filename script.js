@@ -214,4 +214,159 @@ console.log(status);
 
 let isReady = true;
 let zakaz = isReady ? "готов" : "В зборке";
-console.log(zakaz);
+console.log(zakaz); 
+
+
+
+
+for(let i=1; i<= 5; i++){
+  console.log("Повтор" + i);
+}
+
+
+
+for(let i=2; i<= 10; i+=2){
+  console.log(i)
+}
+
+
+
+for(let i=5; i<= 15; i+=1){
+  console.log(i)
+}
+
+
+for(let i =5; i>=1; i--){
+   console.log(i)
+}
+console.log("Старт");
+
+
+// let i=1;
+
+// while(i<=3){
+//   console.log("Шаг" + i);
+//   i++;
+// }
+
+
+let money =100;
+
+while (money >0){
+  console.log("Покупаю мороженое!");
+  money -= 20;
+}
+
+
+
+
+let v=10;
+
+while(v>=1){
+  console.log(v);
+  v--;
+}
+
+
+let password;
+
+// do{
+  // password = prompt("Введите пароль:");
+// } while (password !=="1234");
+
+// console.log("Пароль принят!");
+
+
+
+// do{
+  // f = prompt("Введите число:");
+// } while (f !="5");
+
+
+let fruits =["яблоко","банан","груша"];
+
+for(let fruit of fruits){
+  console.log(fruit);
+}
+
+
+for (let letter of "Привет") {
+  console.log(letter);
+}
+
+let animals =["зебра","лев","жираф","кролик","куница","собака","медведь","носорог"];
+
+for(let animal of animals){
+  console.log(animal);
+}
+
+
+let person = {name:"Anna",age:15, city:"Минск"};
+
+for (let key in person){
+  console.log(key + ": " + person[key]);
+}
+
+
+let I = {name:"Nikita",age:15,city:"Minsk"};
+
+for(let key in I){
+  console.log(key + ": " + I[key]);
+}
+
+
+
+for (let i=1; i<=10; i++){
+  if(i===5)break;
+  console.log(i);
+} 
+
+
+for (let i=1; i<=5; i++){
+  if(i===3) continue;
+  console.log(i);
+}
+
+
+
+for (let i=1; i<=10; i++){
+  if(i % 2===0) continue;
+  console.log(i);
+}
+
+
+
+let sum = 0;
+
+for(let i=1;i<=5; i++){
+  sum += i;
+}
+
+console.log("Сумма:",sum);
+
+
+for(let i=1;i<=10;i++){
+  console.log(`3 x ${i} = ${3*i}`);
+}
+
+
+let word = "банан";
+let count = 0;
+
+for(let letter of word){
+  if(letter === "a") count++;
+}
+
+console.log(`букв в слове ${word}:`,count);
+
+
+let fruitWord = "Ананас";
+let fruitWordCount = 0;
+
+for( let letter of fruitWord.toLowerCase()){
+  if (letter === "a") fruitWordCount++;
+}
+
+console.log(`Букв в слове ${fruitWord}:`,fruitWordCount);
+
+
