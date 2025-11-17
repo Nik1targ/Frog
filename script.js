@@ -470,11 +470,11 @@ console.log(make())
 
 
 
-function sem(a,b,c) {
-  return a+b+c;
-}
-let res = sem(1,2,3);
-console.log(res);
+//function symma(a,b,c) {
+  //return a+b+c;
+//}
+//let res = symma(1,2,3);
+//console.log(res);
 
-const sem = (x,y) => x*y
-console.log(sem(2,4));
+//const symma = (x,y) => x*y
+//console.log(sem(2,4));
