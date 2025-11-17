@@ -445,14 +445,36 @@ function makeWorker(){
   let names = "Nikolay";
 
   return function(){
-
+    console.log("name in makeWorker function:", names);
   };
 }
+
 let names = "Irina";
 let work= makeWorker();
-work();
+console.log(work())
 
 
 
 
+function makeName(){
+  let me = "Nikita";
 
+  return function(){
+    console.log("name:", me);
+  };
+}
+
+let me = "Irina";
+let make= makeName();
+console.log(make())
+
+
+
+function sem(a,b,c) {
+  return a+b+c;
+}
+let res = sem(1,2,3);
+console.log(res);
+
+const sem = (x,y) => x*y
+console.log(sem(2,4));
