@@ -370,3 +370,111 @@ for( let letter of fruitWord.toLowerCase()){
 console.log(`Букв в слове ${fruitWord}:`,fruitWordCount);
 
 
+
+
+function sym(a,b) {
+  return a+b;
+}
+
+let result = sym(1,2);
+alert(result);
+
+
+
+const generateSumFinder = () => {
+  const summ = (a,b) => a+b;
+  return summ;
+
+};
+
+const summ = generateSumFinder();
+summ(1,5);
+
+
+const square = x => x*x;
+
+console.log(square(5));
+
+
+let resutl = square(4);
+console.log(result);
+
+const obj = {
+  name:"Test",
+  shox(){
+    console.log(this.name);
+  }
+};
+
+obj.shox();
+
+
+
+function User(name){
+  this.neme = name;
+};
+
+new User("Anna");
+
+
+
+let name = "Nikolay";
+
+function sayHi(){
+  alert("Hi, " + name);
+}
+name = "Irina";
+sayHi();
+
+
+
+function makeCounter() {
+  let count = 0;
+
+  return function() {
+    console.log(count);
+  };
+}
+let counter = makeCounter();
+counter();
+counter();
+
+
+
+function makeWorker(){
+  let names = "Nikolay";
+
+  return function(){
+    console.log("name in makeWorker function:", names);
+  };
+}
+
+let names = "Irina";
+let work= makeWorker();
+console.log(work())
+
+
+
+
+function makeName(){
+  let me = "Nikita";
+
+  return function(){
+    console.log("name:", me);
+  };
+}
+
+let me = "Irina";
+let make= makeName();
+console.log(make())
+
+
+
+function sem(a,b,c) {
+  return a+b+c;
+}
+let res = sem(1,2,3);
+console.log(res);
+
+const sem = (x,y) => x*y
+console.log(sem(2,4));
