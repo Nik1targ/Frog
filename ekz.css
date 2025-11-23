@@ -65,7 +65,7 @@
 .button-1{
     display: inline-block;
     background:#ff0000;
-    color:white;
+    color:rgb(255, 0, 0);
     text-decoration:none;
     padding: 10px 20px;
     margin-right: 540px;
@@ -100,5 +100,20 @@ margin-top: -140px;
 
 .text-56{
     padding-left: 55%;
-    margin-top: -370px;
+    margin-top: -400px;
+}
+
+
+.button-2{
+    display: inline-block;
+    background:#ff0000;
+    color:white;
+    text-decoration:none;
+    padding: 10px 20px;
+    margin-right: 300px;
+    border-radius:6px;
+    font-weight:bold;
+    transition: 0.3s;
+    margin-left: 765px;
+    margin-top: 40px;
 }
