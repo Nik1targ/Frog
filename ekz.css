@@ -53,6 +53,26 @@
 
 
 
+.col-md-4{
+    padding: 100px;
+}
 
+
+.col-md-8{
+    padding: 100px;
+}
+
+.button-1{
+    display: inline-block;
+    background:#ff0000;
+    color:white;
+    text-decoration:none;
+    padding: 10px 20px;
+    margin-right: 540px;
+    border-radius:6px;
+    font-weight:bold;
+    transition: 0.3s;
+    margin-left: 580px;
+}
 
 
