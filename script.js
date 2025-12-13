@@ -478,3 +478,43 @@ console.log(make())
 
 //const symma = (x,y) => x*y
 //console.log(sem(2,4));
+
+
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+
+for (let i = 10; i >= 1; i--) {
+  console.log(i);
+}
+
+
+for (let i = 2; i <= 20; i += 2) {
+  console.log(i);
+}
+
+
+for (let i = 1; i <= 45; i += 2) {
+  console.log(i);
+}
+
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`5 × ${i} = ${5 * i}`);
+}
+
+
+let sumlk = 0;
+for (let i = 1; i <= 100; i++) {
+  sumlk += i;
+}
+console.log(sumlk); 
+
+
+let sumE = 0;
+for (let i = 2; i <= 50; i += 2) {
+  sumE += i;
+}
+console.log(sumE); 
