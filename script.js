@@ -518,3 +518,74 @@ for (let i = 2; i <= 50; i += 2) {
   sumE += i;
 }
 console.log(sumE); 
+
+
+
+
+
+
+
+
+
+function greet(name) {
+    console.log(`Привет, ${name}!`);
+}
+
+const squareq = (num) => num * num;
+
+function sumArray(arr) {
+    return arr.reduce((sum, num) => sum + num, 0);
+}
+
+
+const hello = () => "h";
+
+function doSomething(callback) {
+    callback();
+}
+
+
+
+function sortByLength(arr) {
+    return arr.sort((a, b) => a.length - b.length);
+}
+
+
+
+
+
+function lastLetter(word) {
+    return word[word.length - 1];
+}
+
+
+const user = {
+    name: "Alex",
+    showName() {
+        console.log(this.name);
+    }
+};
+
+
+function makeCounter() {
+    let count = 0;
+    return function() {
+        return ++count;
+    };
+}
+
+
+function printNumbers(n) {
+    if (n < 1) return;
+    console.log(n);
+    printNumbers(n - 1);
+}
+
+
+function makeCapital(word) {
+    return word[0].toUpperCase() + word.slice(1);
+}
+
+
+const filterEven = (arr) => arr.filter(num => num % 2 === 0);
+
