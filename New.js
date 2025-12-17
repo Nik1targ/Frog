@@ -22,6 +22,11 @@ function Human(firstName, lastName) {
     this.firstName = firstName
     this.lastName = lastName
     
+
+    this.sayHallo = function () {
+        console.log(`'Hello, I'm ${firstName}`)
+    
+    }
 }
 
 
@@ -34,7 +39,7 @@ console.log(zell.firstName);console.log(zell.lastName)
 
 
 
-const Human = {
+const Humann = {
     init(firstName, lastName) {
         this.firstName = firstName
         this.lastName = lastName
@@ -42,14 +47,14 @@ const Human = {
 }
 
 
-const chriz = Object.create(Human)
+const chriz = Object.create(Humann)
 chris.init('Chris', 'Coyier')
 
 console.log(chriz.firstName)
 console.log(chriz.lastName)
 
 
-function Human(firstName, lastName) {
+function Humman(firstName, lastName) {
     return {
         firstName,
         lastName
@@ -58,10 +63,25 @@ function Human(firstName, lastName) {
 
 
 
-const chric = Human('Chris', 'Coyier')
+const chric = Humman('Chris', 'Coyier')
 
 console.log(chric.firstName)
 console.log(chric.lastName)
+
+
+
+
+function Humman(firstName, lastName) {
+    console.log(chric.firstName)
+    console.log(chric.lastName)
+
+}
+
+
+Human.prototype.sayHello = function () {
+    console.log(`'Hello, I'm ${firstName}`)
+}
+
 
 
 
