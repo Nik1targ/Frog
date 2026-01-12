@@ -153,5 +153,86 @@ function sayHi(){
 console.log("return 100", return100());
 
 
+setTimeout(() => {
+  console.log("Привет!");
+},2000);
 
-//
+
+setTimeout(() => {
+  console.log("Loading...");
+},5000);
+
+
+const name = "Alex";
+
+setTimeout(() => {
+  console.log("Привет," +name);
+},1000);
+
+
+function sayHello() { 
+  console.log("Hello!");
+}
+
+setTimeout(sayHello, 1500);
+
+
+let timerId = setTimeout(() => alert("Ничего не происходит"),1000);
+alert(timerId);
+
+clearTimeout(timerId);
+alert(timerId);
+
+
+setInterval(() => {
+  console.log("Прошла 1 секунда");
+},1000);
+
+const TicTimeout = setInterval(() => {
+  console.log("TIC");
+},3000);
+
+clearTimeout(TicTimeout);
+
+
+let count = 1;
+setInterval(() => {
+  console.log(count);
+  count++;
+},1000);
+
+
+let i = 1;
+const setIntervalId = setInterval(() => {
+  console.log(i);
+
+  if(i===5) {
+    clearInterval(setIntervalId);
+  }
+
+  i++;
+},1000);
+
+
+
+const btn = document.querySelector("button");
+
+btn.addEventListener("click",() => {
+  setTimeout(() => {
+    alert("Готово!");
+  },2000);
+});
+
+
+
+let d = 5;
+const setIntervalid = setInterval(() => {
+  console.log(d);
+
+  if(d===0) {
+    clearInterval(setIntervalid);
+    alert("Start")
+  }
+
+  d--;
+},1000);
