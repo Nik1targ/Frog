@@ -42,3 +42,5 @@ const animals = ["cat", "parrot","dog", "elephant"];
 const min = 4;
 
 filterLongWords(animals, min);
+
+
