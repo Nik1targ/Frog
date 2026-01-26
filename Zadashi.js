@@ -78,4 +78,54 @@ const isEmail = (email) => {
 
 
 
+const promise = new Promise((resolve, reject) => {
+    resolve("Готово");
+});
 
+
+promise.then(result => {
+    console.log(result);
+});
+
+
+promise.catch(error => {
+    console.log(error);
+});
+
+
+async function loadData() {
+  try{
+  const res = await fetch(url);
+  const data = await res.json();
+  console.log(data);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+
+const promisse = new Promise((resolve, reject) => {
+    resolve("10");
+});
+promisse.then(res => res*2)
+.then(res => res+5)
+.then(data => console.log(res))
+
+
+
+fetch("https:jsonplaceholder.typicode.com/users")
+.then((res) => res.then())
+.then((users) => {
+    users.forEach((users) => console.log(user.name));
+})
+.catch((err) => console.log("ошибка",err));
+
+
+
+
+fetch("https:jsonplaceholder.typicode.com/users")
+.then((res) => res.then())
+.then((users) => {
+    users.forEach((users) => console.log(user.name));
+})
+.catch((err) => console.log("ошибка",err));
