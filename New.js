@@ -239,3 +239,77 @@ const setIntervalid = setInterval(() => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+function calcDiscount(price, percent) {
+    const discount = price * percent / 100;
+    return price - discount;
+}
+
+console.log(calcDiscount(1000, 15)); 
+
+
+
+
+
+
+function normalizeLogin(login) {
+    return login.trim().toLowerCase();
+}
+
+console.log(normalizeLogin(" ALEX ")); 
+
+
+
+
+
+function generatePassword(length) {
+    if (length < 6) {
+        return "Too short";
+    }
+    
+    const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    let password = "";
+    
+    for (let i = 0; i < length; i++) {
+        const randomIndex = Math.floor(Math.random() * chars.length);
+        password += chars[randomIndex];
+    }
+    
+    return password;
+}
+
+
+console.log(generatePassword(5));   
+
+
+
+const anotherFormatter = u =>`Имя: ${u.namec}, Возраст: ${u.age}`;
+console.log(formatUsers(users, anotherFormatter));
+
+
+
+function greet(name, hour) {
+    if (hour >= 6 && hour <= 11) {
+        return Доброе `утро, ${name}`;
+    } else if (hour >= 12 && hour <= 17) {
+        return Добрый `день, ${name}`;
+    } else if (hour >= 18 && hour <= 22) {
+        return Добрый `вечер, ${name}`;
+    } else {
+        return Доброй `ночи, ${name}`;
+    }
+}
+
+
+console.log(greet("Алекс", 9));   
+console.log(greet("Мария", 14));  
